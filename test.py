@@ -35,7 +35,6 @@ def get_gemini_response(question):
 st.set_page_config(page_title="Chat Bot")
 
 st.header("I'm ChatBot")
-#st.image("https://media.licdn.com/dms/image/D5603AQGRvuyBNzcBkA/profile-displayphoto-shrink_800_800/0/1711598312512?e=2147483647&v=beta&t=8spohchaHsFrh_Sr_UZzYyZobRIGJKflKGFzT3sUmrk", width=100)
 input=st.text_input("Input: ",key="input")
 
 
